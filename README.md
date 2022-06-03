@@ -48,9 +48,8 @@ The directories and files are organized as depicted below:<BR>
       - train_labels.csv : csv generated during the data pre-processing phase, this contains the target dataframe<BR>
       - amazon_forest_part\*npz : npz files generated during the data pre-processing phase, these contain the image data converted to numpy array format.
 
-Please note that due to file size limits the complete set of jpg images has not been uploaded to github. As a reference only<BR>
-1000 images have been uploaded. To download the complete set, please see the [Kaggle site](https://www.kaggle.com/competitions/planet-understanding-the-amazon-from-space/data) 
-      
+Please note that due to file size limits the complete set of jpg images has not been uploaded to github. As a reference only 1000 images have been uploaded. To download the complete set, please see the [Kaggle site](https://www.kaggle.com/competitions/planet-understanding-the-amazon-from-space/data) 
+
 
 ## Execution Instructions <a name="exec"></a>
 There are no special instructions, except on the order in which the notebooks are laid out:<BR>
