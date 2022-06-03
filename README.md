@@ -21,10 +21,11 @@ The code has been developed using Python version 3.7.12<BR>
 The main libraries used are tensorflow, keras, pandas, numpy, sklearn, matplotlib.<BR>
 The version of tensorflow used in the implementation : 2.8.0<BR>
 The version of keras used in the implementation : 2.8.0<BR>
+The keras API is integrated with tensorflow<BR>
 The version of sklearn  used in the implementation : 1.0.2<BR>
 
-The tqdm library has been used to track the progress during the training using a progress bar<BR> 
-Command to install the tqdm library:<BR>
+The tqdm library is used to track the progress during model training using a progress or meter bar.<BR>
+Command to install the tqdm library:
 - pip install tqdm
 
 The link below has further details on the installation of the tqdm library
@@ -42,11 +43,10 @@ The directories and files are organized as depicted below:<BR>
       - model_utils.py : script with common functions used in model training and classification<BR>
       - plot_utils.py : script with common functions used in plotting the graphs and charts<BR>
 - \data : data used in the analysis, classification<BR>
-      - train-jpg/train_*.jpg : folder containing the satellite images in jpg format used in training and classification<BR>
+      - train-jpg/train_\*.jpg : folder containing the satellite images in jpg format used in training and classification<BR>
       - train_v2.csv : csv containing the labels associated with the images<BR>
       - train_labels.csv : csv generated during the data pre-processing phase, this contains the target dataframe<BR>
-      - amazon_forest_part*npz : npz files generated during the data pre-processing phase, these contain the image data<BR>
-        converted to numpy array format
+      - amazon_forest_part\*npz : npz files generated during the data pre-processing phase, these contain the image data converted to numpy array format.
 
 Please note that due to file size limits the complete set of jpg images has not been uploaded to github. As a reference only<BR>
 1000 images have been uploaded. To download the complete set, please see the [Kaggle site](https://www.kaggle.com/competitions/planet-understanding-the-amazon-from-space/data) 
