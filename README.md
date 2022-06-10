@@ -1,4 +1,4 @@
-## Disaster Response Pipeline
+## The Amazon Rainforest : Tracking Deforestation with CNNs 
 
 ### Table of Contents
 
@@ -51,7 +51,7 @@ Please note that due to file size limits the complete set of jpg images has not 
 
 
 ## Execution Instructions <a name="exec"></a>
-There are no special instructions, except on the order in which the notebooks are laid out:<BR>
+There are no special instructions except the order in which the notebooks are laid out:<BR>
 - AmazonForest-data-process.ipynb : This is the first notebook in the series which performs the data pre-processing<BR>
 - AmazonForest-model-train-V1.ipynb : The second notebook in the series which builds the first version of the CNN Model from the pre-procesed image data<BR>
 - AmazonForest-model-train-V2.ipynb.py : The third notebook in the series which builds the final version of the CNN model<BR>
@@ -61,11 +61,11 @@ There are no special instructions, except on the order in which the notebooks ar
 ## Results<a name="results"></a>
 The link to the GitHub repository is available [here](https://github.com/pnarwa/nano-capstone)<br />
 The links to the blog posts related to the implementation are available at:
-- [The Magnificent Rainforests]
-- [Tracking Deforestation with CNNs]
+- [The Magnificent Rainforests](https://medium.com/@pnarwa/the-magnificent-rainforests-331d986f2eee)
+- [Tracking Deforestation with CNNs](https://medium.com/@pnarwa/tracking-deforestation-with-cnns-afc9c97e8cb2)
 
 ## Acknowledgements<a name="ack"></a>
-- The image data used in the project is from the the [Kaggle site](https://www.kaggle.com/competitions/planet-understanding-the-amazon-from-space/data)  
-- We make use of the precision, recall and fbeta_score functions implemented by the Keras team at [Keras GitHub](https://github.com/keras-team/keras/blob/4fa7e5d454dd4f3f33f1d756a2a8659f2e789141/keras/metrics.py#L134)
-- Mongobay article on [Why are Rainforests important](https://rainforests.mongabay.com/kids/elementary/401.html#content)
-- Mongobay article on [Consequences of Deforestation](https://rainforests.mongabay.com/09-consequences-of-deforestation.html)
+- The image data used in the project is from the [Kaggle site](https://www.kaggle.com/competitions/planet-understanding-the-amazon-from-space/data)  
+- The precision, recall and fbeta_score functions implemented by the Keras team at [Keras GitHub](https://github.com/keras-team/keras/blob/4fa7e5d454dd4f3f33f1d756a2a8659f2e789141/keras/metrics.py#L134)
+- Article on Mongabay [Why are Rainforests important](https://rainforests.mongabay.com/kids/elementary/401.html#content)
+- Article on Mongabay [Consequences of Deforestation](https://rainforests.mongabay.com/09-consequences-of-deforestation.html)
