@@ -1,4 +1,4 @@
-## The Amazon Rainforest : Tracking Deforestation with CNNs 
+## The Amazon Rainforest : Tracking Deforestation
 
 ### Table of Contents
 
@@ -67,5 +67,5 @@ The links to the blog posts related to the implementation are available at:
 ## Acknowledgements<a name="ack"></a>
 - The image data used in the project is from the [Kaggle site](https://www.kaggle.com/competitions/planet-understanding-the-amazon-from-space/data)  
 - The precision, recall and fbeta_score functions implemented by the Keras team at [Keras GitHub](https://github.com/keras-team/keras/blob/4fa7e5d454dd4f3f33f1d756a2a8659f2e789141/keras/metrics.py#L134)
-- Article on Mongabay [Why are Rainforests important](https://rainforests.mongabay.com/kids/elementary/401.html#content)
-- Article on Mongabay [Consequences of Deforestation](https://rainforests.mongabay.com/09-consequences-of-deforestation.html)
+- Mongabay Report on [Why are Rainforests important](https://rainforests.mongabay.com/kids/elementary/401.html#content)
+- Mongabay Report on [Consequences of Deforestation](https://rainforests.mongabay.com/09-consequences-of-deforestation.html)
