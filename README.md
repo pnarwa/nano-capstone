@@ -27,8 +27,7 @@ The tqdm library is used to track the progress during model training using a pro
 Command to install the tqdm library:
 - pip install tqdm
 
-The link below has further details on the installation of the tqdm library
-- https://pypi.org/project/tqdm/ 
+The [pypi link](https://pypi.org/project/tqdm/) has further details on the installation of the tqdm library.<BR>
 
 ## File Descriptions<a name="files"></a>
 The directories and files are organized as depicted below:<BR>
