@@ -4,7 +4,7 @@
 
 1. [Objectives](#objectives)
 2. [Installation](#installation)
-3. [File Descriptions](#files)
+3. [File Descriptions](#fdesc)
 4. [Execution Instructions](#exec)
 5. [Results](#results)
 6. [Acknowledgements](#ack)
@@ -29,7 +29,7 @@ Command to install the tqdm library:
 
 The [pypi link](https://pypi.org/project/tqdm/) has further details on the installation of the tqdm library.<BR>
 
-## File Descriptions<a name="files"></a>
+## File Descriptions<a name="fdesc"></a>
 The directories and files are organized as depicted below:<BR>
 - \notebooks : notebooks used in data processing and modeling phases<BR>
       - AmazonForest-data-process.ipynb : notebook containing the code related to data pre-processing<BR>
